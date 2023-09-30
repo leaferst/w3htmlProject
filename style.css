@@ -1,18 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 .promotion-header {
-    background-color: blue;
+    background-color: #1c2c6c;
     color: white;
-    height: 40px;
+    height: 55px;
     text-align: center;
+    padding: 20px 5px 20px 30px;
+    font-family: Helvetica;
+    font-size: 14px;
 }
 
 .main-header {
     background-color: white;
+    padding: 11px 5px 10px 15px;
+    height: 55px;
 }
 
 .slideshow {
-    background-color: black;
     color: white;
     height: 400px;
+    text-align: center;
+}
+
+.slideshow-photos {
+    height: 420px;
 }
 
 .product-tiles {
@@ -21,26 +47,55 @@
 }
 
 .section1 {
-    font-size: 30px;
+    height: 90px;
+    font-size: 27px;
+    font-family: helvetica;
+    font-weight: bold;
     text-align: center;
-    padding: 15px;
+    padding-top: 50px;
 }
 
 .links {
-    padding: 15px;
-    text-align: center;
-}
-
-#samsungLogo {
-    height: 40px;
+    font-size: 12px;
+    font-family: helvetica;
+    font-weight: bold;
+    margin: auto;
+    width: 700px;
+    padding: 25px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .tiles {
+    height: 450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: solid black 2px;
-    border-radius: 16px;
-    box-shadow: 10px 10px rgb(66, 75, 75);
     margin: 5vw;
+}
+
+.product-tiles {
+    border: solid lightslategray 1px;
+    border-radius: 16px;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    justify-content: space-around;
+    font-family: helvetica;
+    /*box-shadow: 10px 10px rgb(66, 75, 75);*/
+}
+
+.product-images {
+    height: 100px;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#samsungLogo {
+    height: 32px;
+}
+
+#buyNow {
+    color: white;
 }
